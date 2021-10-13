@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="54.054">
+    <testcase classname="Sort by price" name="Verify the filtering leads to correct results and the search results that are relevant." time="53.748">
+        <failure message="xxxxxxx- Failed: The class not found -xxxxxxx expected [۵۹۰ تومان] but found [c-price]" type="java.lang.AssertionError"><![CDATA[Given The browser launched and opened.......................................passed
+And The user see the list of products.......................................passed
+When The user click on the sort by price button.............................passed
+And System display the products sorted......................................passed
+Then I Check the outcomes...................................................failed
+
+StackTrace:
+java.lang.AssertionError: xxxxxxx- Failed: The class not found -xxxxxxx expected [۵۹۰ تومان] but found [c-price]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at StepDefinitions.FunctionalTest.i_check_the_outcomes(FunctionalTest.java:127)
+	at ✽.I Check the outcomes(file:///C:/Users/Lenovo/eclipse-workspace/HomeTask_Echantion/src/test/resources/Features/Functional.feature:11)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-06T08:14:12.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9633032900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.browserSetup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify the filtering leads to correct results and the search results that are relevant.",
+        "description": "",
+        "id": "sort-by-price;verify-the-filtering-leads-to-correct-results-and-the-search-results-that-are-relevant.",
+        "after": [
+          {
+            "result": {
+              "duration": 633830400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The browser launched and opened",
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.the_browser_launched_and_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5902062800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user see the list of products",
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.the_user_see_the_list_of_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17864268500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user click on the sort by price button",
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.the_user_click_on_the_sort_by_price_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19576114100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "System display the products sorted",
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.system_display_the_products_sorted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: xxxxxxx- Failed: The class not found -xxxxxxx expected [۵۹۰ تومان] but found [c-price]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat StepDefinitions.FunctionalTest.i_check_the_outcomes(FunctionalTest.java:127)\r\n\tat ✽.I Check the outcomes(file:///C:/Users/Lenovo/eclipse-workspace/HomeTask_Echantion/src/test/resources/Features/Functional.feature:11)\r\n",
+              "duration": 26479700,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I Check the outcomes",
+            "match": {
+              "location": "StepDefinitions.FunctionalTest.i_check_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Sort by price",
+    "description": "  As a User, I want to select the Sort by price filter\n   so that will allow me to see the products sorted on the result page.",
+    "id": "sort-by-price",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Functional.feature",
+    "tags": []
+  }
+]
